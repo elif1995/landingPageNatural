@@ -1,0 +1,87 @@
+.image-slider{
+  height:400px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-radius: 20px;
+  margin: 50px;
+  padding: 20px;
+  background-color:white
+}
+
+.slider-title{
+  font-weight: bold;
+  
+  text-align: center;
+  
+  
+}
+
+.image-slider-inner{
+  height:300px;
+  line-height:280px;
+  direction:rtl;
+  border: none;
+}
+
+.image-slider-flex{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  border: none;
+  
+}
+
+
+.side-image-1{
+  background-image: url(../../img/imageSlider/OIP.jpg);
+  height: 100%;
+  width: 99%;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center center; 
+  
+}
+.side-image-2{
+  background-image: url(../../img/imageSlider/OIP\ \(1\).jpg);
+  height: 100%;
+  width: 99%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.side-image-3{
+  background-image: url(../../img/imageSlider/e3c8236f5c3cb53e4fa1db2f9a2b9cfd.jpg);
+  height: 100%;
+  width: 99%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.side-image-4{
+  background-image: url(../../img/imageSlider/Nature-craft-supplies-1-600x450.jpg);
+  height: 100%;
+  width: 99%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.side-content{
+  font-size: clamp(1rem,1.4rem, 2rem);
+  color: burlywood;
+  font-weight: bold;
+  width: 100%;
+}
+
+@media  screen and (max-width: 700px){
+  .image-slider{
+    height:350px;
+    margin: 30px;
+    
+  }
+  .image-slider-inner{
+    height:250px;
+    line-height:250px;
+    direction:rtl;
+    border: none;
+  }
+}

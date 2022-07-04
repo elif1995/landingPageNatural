@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-color: #fffadc
+  
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.queary-div{
+  font-weight: bold;
+  font-size: clamp(10px,16px, 22px);
+  width: 100%;
+  background-color: #fffadc;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.queary-div-button {
+  cursor: pointer;
+  padding: 1px 20px ;
+  background-color:#adb792; 
+  color:#fff;
+  border-radius:10px; 
+  border:none;
+  box-shadow: rgba(17, 17, 26, 0.236) 3px 3px 16px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.queary-div-button:hover{
+  opacity:0.7;
+  transform:translateX(-10px) scale(1.05);
+  background-color: lightgreen;
+  transition: 0.2s ease ;
+}
+
+.queary-div-button:active{
+  transform:translateY(4px)
+}
+
+.social-links{
+  display:flex;
+  justify-content:space-around;
+  width:100%;
+  background-color: grey;
+  padding-top: 10px;
 }
