@@ -4,11 +4,13 @@
   align-items:center;
   background-color:#fbae54;
   direction:rtl;
+  
 }
 
 .form-control{
+  
   width:80%;
-  background-color:#fff;
+  background-color:#fffadc;
   
 }
 
@@ -17,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  
 }
 
 .form-control input{
@@ -31,4 +33,27 @@
 .form-control label{
   font-size: 30px;
   font-weight: bold;
+}
+
+
+.form-submit {
+  cursor: pointer;
+  padding: 1px 20px ;
+  background-color:#adb792; 
+  color:#fff;
+  border-radius:10px; 
+  border:none;
+  box-shadow: rgba(17, 17, 26, 0.236) 3px 3px 16px;
+  margin: 20px auto;
+}
+
+.form-submit:hover{
+  opacity:0.7;
+  transform:translateX(-10px) scale(1.05);
+  background-color: lightgreen;
+  transition: 0.2s ease ;
+}
+
+.form-submit:active{
+  transform:translateY(4px)
 }

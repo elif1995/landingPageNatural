@@ -23,14 +23,15 @@ function App() {
       <PositivePoints/>
       <br/>
       <Form/>
-      <br/>
+      
       <div className="social-links">
-        <div><FontAwesomeIcon className="fa-3x" icon={faWhatsapp} style={{color: 'white'}}></FontAwesomeIcon></div>
-        <div><FontAwesomeIcon className="fa-3x" icon={faInstagram} style={{color: 'white'}}></FontAwesomeIcon></div>
+        <div><a href="https://api.whatsapp.com/send?phone=508105610&text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%A0%D7%AA"><FontAwesomeIcon className="fa-3x" icon={faWhatsapp} style={{color: 'white'}}></FontAwesomeIcon></a></div>
+        <div><a href="https://www.instagram.com/alle.artbynature/"><FontAwesomeIcon className="fa-3x" icon={faInstagram} style={{color: 'white'}}></FontAwesomeIcon></a></div>
         <div><FontAwesomeIcon className="fa-3x" icon={faFacebookF} style={{color: 'white'}}></FontAwesomeIcon></div>
       </div>
+      <hr />
       <div className="social-links">
-        <h3 style={{fontWeight: 'bold'}}>developed in 2022 by: Eli Frenkin </h3 >
+        <h4 style={{ fontFamily:'initial'}}>developed in 2022 by: Eli Frenkin </h4 >
       </div>
       
     </div>
