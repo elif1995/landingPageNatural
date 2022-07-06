@@ -27,7 +27,7 @@ function App() {
       <div className="social-links">
         <div><a href="https://api.whatsapp.com/send?phone=508105610&text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%A0%D7%AA"><FontAwesomeIcon className="fa-3x" icon={faWhatsapp} style={{color: 'white'}}></FontAwesomeIcon></a></div>
         <div><a href="https://www.instagram.com/alle.artbynature/"><FontAwesomeIcon className="fa-3x" icon={faInstagram} style={{color: 'white'}}></FontAwesomeIcon></a></div>
-        <div><FontAwesomeIcon className="fa-3x" icon={faFacebookF} style={{color: 'white'}}></FontAwesomeIcon></div>
+        <div><a href="https://www.facebook.com/yana.kaplan.7"><FontAwesomeIcon className="fa-3x" icon={faFacebookF} style={{color: 'white'}}></FontAwesomeIcon></a></div>
       </div>
       <hr />
       <div className="social-links">
