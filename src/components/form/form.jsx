@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <div className="form-container">
 
-      <form className='form-control'>
+      <form id="form" className='form-control'>
         <h1 style={{backgroundColor:'#fbae54', width: "100%", textAlign:'center', color:'#fff', fontWeight:'bold', fontSize: '45px'}}>השאירי פרטים</h1>
         <label>שם</label>
         <input  name="name" type='text' />
@@ -13,7 +13,7 @@ const Form = () => {
         <input  name="email" type='email' />
         <label>טלפון</label>
         <input  name="phone" type='phone' />
-        <button type='submit' className='form-submit'><h1 style={{color:'#fff'}}>שלחי</h1></button>
+        <button type='submit' className='form-submit'><h1 style={{color:'#fff', fontWeight:'bold'}}>שלחי</h1></button>
       </form>
     </div>
   )
